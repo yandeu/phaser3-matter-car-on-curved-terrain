@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="terrain.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 1280 720.00001"
+   height="720"
+   width="1280">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="24"
+     inkscape:window-x="57"
+     inkscape:window-height="1056"
+     inkscape:window-width="1863"
+     units="px"
+     showgrid="false"
+     inkscape:current-layer="svg2"
+     inkscape:document-units="px"
+     inkscape:cy="-1086.0279"
+     inkscape:cx="7750.376"
+     inkscape:zoom="0.0875"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-332.36216)" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.80137658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -10.897628,399.93176 C -10.897628,399.93176 288.60672,618.50006 508.36612,640.74266 749.66242,665.16516 960.21539,497.39726 1204.7144,507.67696 1389.1043,515.42946 1527.0719,666.08666 1697.4136,650.82346 1995.3401,624.12826 2203.0018,278.20826 2500.9048,251.25206 2757.1536,283.57346 3160.8719,433.07886 3614.1631,512.50706 3701.568,527.82266 3802.4814,469.17086 3891.4898,482.07566 3920.0416,486.21526 3976.7979,567.15876 4005.1617,571.34966 4541.0055,650.52346 5038.2438,671.82536 5305.707,674.53556 5591.1758,673.51816 5860.3257,403.90846 6235.521,388.42876 6461.4248,379.10846 6577.2065,733.44486 6801.0752,683.08636 7362.552,556.78396 7556.2782,653.52216 7779.8151,642.88966 7895.3772,637.39296 8337.1538,200.0133 8593.7804,200.2414 8859.1093,200.4773 8967.7842,-19.579351 9137.4147,0.78640883 9394.5767,31.661165 9686.3335,223.62336 9903.7143,161.75654 10339.873,37.625175 10339.676,533.48076 10347.275,532.76956 10362.825,531.31426 10361.694,824.09316 10360.76,931.21166 10360.551,955.18126 4.6852435,975.56876 4.6852435,975.56876"
+     id="path4140"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="caaacssscssssssssc" />
+  <path
+     style="opacity:1;fill:#cccccc;fill-opacity:0.81308414;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+     d="M 64.303133,-374.84559 173.3996,-374.84559 C 190.18834,-374.84559 205.75684,-361.20379 203.70418,-344.54099 L 186.53159,-205.13999 C 184.47892,-188.47719 173.01575,-174.83539 156.22701,-174.83539 L 81.475723,-174.83539 C 64.686993,-174.83539 53.223813,-188.47719 51.171153,-205.13999 L 33.998557,-344.54099 C 31.945895,-361.20379 47.514403,-374.84559 64.303133,-374.84559 Z"
+     id="rect4153"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssssssss"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/gas.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:nodetypes="csaacssscssssssssc"
+     inkscape:connector-curvature="0"
+     id="path3335"
+     d="M 10316.178,2117.1298 C 10316.178,2117.1298 10215.724,1937.6019 9998.9436,1844.7832 9781.7034,1751.7674 9421.8726,1689.1243 9128.8491,1707.6769 8958.1667,1718.4835 8806.4916,1866.0866 8636.1499,1850.8234 8338.2234,1824.1282 8130.5617,1478.2082 7832.6587,1451.252 7576.4099,1483.5734 7172.6916,1633.0788 6719.4004,1712.5071 6631.9955,1727.8226 6531.0821,1669.1708 6442.0737,1682.0757 6413.5219,1686.2152 6208.1942,1807.1588 6179.8304,1811.3497 5643.9866,1890.5235 5301.034,1746.111 5027.8565,1874.5355 4690.9591,1993.5181 4473.2378,1603.9084 4098.0425,1588.4287 3872.1387,1579.1084 3756.357,1933.4448 3532.4883,1883.0863 2971.0115,1756.7839 2777.2853,1853.5221 2553.7484,1842.8896 2438.1863,1837.3929 2047.8383,1525.7276 1791.2117,1525.9557 1525.8828,1526.1916 1365.7793,1180.4206 1196.1488,1200.7864 938.9868,1231.6612 647.23,1423.6234 429.8492,1361.7565 -6.3098824,1237.6252 -6.1128824,1733.4807 -13.711882,1732.7695 -29.261882,1731.3142 -28.130882,2024.0931 -27.196882,2131.2117 -26.987882,2155.1813 10328.879,2175.5688 10328.879,2175.5688"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.80137658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <rect
+     style="opacity:1;fill:#cccccc;fill-opacity:0.81308414;stroke:#666666;stroke-width:0.76492667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+     id="rect3338"
+     width="188.12344"
+     height="60.377132"
+     x="308.8869"
+     y="-286.81479"
+     ry="22.089211"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/restart-btn.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:30px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="327.28943"
+     y="-245.70583"
+     id="text3340"
+     sodipodi:linespacing="125%"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/restart-btn.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><tspan
+       sodipodi:role="line"
+       id="tspan3342"
+       x="327.28943"
+       y="-245.70583"
+       style="-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">RESTART</tspan></text>
+</svg>
