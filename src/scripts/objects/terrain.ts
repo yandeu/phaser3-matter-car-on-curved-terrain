@@ -38,18 +38,38 @@ export default class Terrain {
     let LINE_HEIGHT = 25
     let WIDTH = points.x.high - points.x.low
     let HEIGHT = points.y.high - points.y.low
-    let g = scene.add.graphics({ x: x, y: y })
-    g.lineStyle(LINE_HEIGHT, 0xadea53)
-    g.fillStyle(0x685339)
-    g.beginPath()
+
+    // create the terrain
+    let terrain = scene.add.graphics({ x: x, y: y })
+    terrain.fillStyle(0x685339)
+    terrain.beginPath()
     vertexSets[0].forEach(c => {
-      g.lineTo(Math.round(c.x), Math.round(c.y))
+      terrain.lineTo(Math.round(c.x), Math.round(c.y))
     })
-    g.closePath()
-    g.fillPath()
-    g.strokePath()
-    //g.generateTexture('ground', WIDTH, HEIGHT)
-    //g.destroy()
+    terrain.closePath()
+    terrain.fillPath()
+
+    const mask = terrain.createGeometryMask()
+
+    // create the wholes in the terrain
+    let wholes = scene.add.tileSprite(x, y, WIDTH, HEIGHT, 'wholes')
+    wholes.setOrigin(0)
+    wholes.setMask(mask)
+
+    // create the grass layer
+    let grass = scene.add.graphics({ x: x, y: y })
+    grass.lineStyle(LINE_HEIGHT, 0xadea53)
+    grass.beginPath()
+    vertexSets[0].forEach(c => {
+      grass.lineTo(Math.round(c.x), Math.round(c.y))
+    })
+    grass.closePath()
+    grass.strokePath()
+
+    // plant the grass
+    vertexSets[0].forEach(point => {
+      if (Math.random() < 0.15) scene.add.image(point.x + x, point.y + y - 15, 'grass')
+    })
 
     let terrainBody: any = scene.matter.add.fromVertices(
       WIDTH / 2 + x,

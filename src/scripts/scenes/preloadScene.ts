@@ -10,6 +10,8 @@ export default class PreloadScene extends Phaser.Scene {
     this.load.image('car', 'assets/img/car-small.png')
     this.load.image('wheel', 'assets/img/wheel-small.png')
     this.load.image('restart', 'assets/img/restart-btn.png')
+    this.load.image('wholes', 'assets/img/wholes.png')
+    this.load.image('grass', 'assets/img/grass.png')
   }
 
   create() {

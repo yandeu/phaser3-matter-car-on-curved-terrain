@@ -26,9 +26,9 @@
      showgrid="false"
      inkscape:current-layer="svg2"
      inkscape:document-units="px"
-     inkscape:cy="-1086.0279"
-     inkscape:cx="7750.376"
-     inkscape:zoom="0.0875"
+     inkscape:cy="955.33929"
+     inkscape:cx="600.35952"
+     inkscape:zoom="11.2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -107,4 +107,348 @@
        x="327.28943"
        y="-245.70583"
        style="-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">RESTART</tspan></text>
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+     id="rect3347"
+     width="1280"
+     height="720"
+     x="-34.28582"
+     y="-1445.7142"
+     ry="0"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <g
+     id="g4161"
+     transform="translate(278.58371,-1265.8054)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4153"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="circle4158"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.84285714,0,0,0.84285714,457.83881,-1316.924)"
+     id="g4165"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4167"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4169" />
+  </g>
+  <g
+     id="g4171"
+     transform="translate(351.44091,-1731.5197)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4173"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4175"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="translate(860.01231,-1758.6625)"
+     id="g4177"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4179"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4181" />
+  </g>
+  <g
+     id="g4183"
+     transform="translate(742.86941,-1437.2339)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4185"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4187"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="translate(1145.7266,-1314.3768)"
+     id="g4189"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4191"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4193" />
+  </g>
+  <g
+     id="g4195"
+     transform="translate(1178.5837,-1531.5197)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4197"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4199"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="g4201"
+     transform="matrix(0.84285714,0,0,0.84285714,324.98171,-1438.3525)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4203"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4205"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.84285714,0,0,0.84285714,556.41021,-1561.2097)"
+     id="g4207"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4209"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4211" />
+  </g>
+  <g
+     id="g4213"
+     transform="matrix(0.84285714,0,0,0.84285714,900.69591,-1511.2097)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4215"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4217"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.84285714,0,0,0.84285714,1224.9817,-1725.4954)"
+     id="g4219"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4221"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4223" />
+  </g>
+  <g
+     id="g4225"
+     transform="matrix(0.70000078,0,0,0.70000078,866.51251,-1163.5257)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4227"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4229"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.70000078,0,0,0.70000078,1283.6554,-1132.0971)"
+     id="g4231"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4233"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4235" />
+  </g>
+  <g
+     id="g4237"
+     transform="matrix(0.70000078,0,0,0.70000078,1080.7982,-1556.3828)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4239"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4241"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.70000078,0,0,0.70000078,1270.7982,-1512.0971)"
+     id="g4243"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4245"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4247" />
+  </g>
+  <g
+     id="g4249"
+     transform="matrix(0.70000078,0,0,0.70000078,492.22681,-1649.24)"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       r="50"
+       cy="433.79077"
+       cx="-209.28571"
+       id="circle4251"
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1" />
+    <path
+       id="path4253"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="matrix(0.70000078,0,0,0.70000078,546.51251,-1173.5257)"
+     id="g4255"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4257"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4259" />
+  </g>
+  <g
+     transform="matrix(0.70000078,0,0,0.70000078,182.22681,-1472.0971)"
+     id="g4261"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <circle
+       style="opacity:1;fill:#6e563a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       id="circle4263"
+       cx="-209.28571"
+       cy="433.79077"
+       r="50" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#57462a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+       d="M -209.28516,383.79102 A 50,50 0 0 0 -244.22852,398.03906 50,50 0 0 1 -224.4375,393.89258 50,50 0 0 1 -174.4375,443.89258 50,50 0 0 1 -189.49609,479.64453 50,50 0 0 0 -159.28516,433.79102 50,50 0 0 0 -209.28516,383.79102 Z"
+       id="path4265" />
+  </g>
+  <path
+     style="fill:#adea53;fill-opacity:1;fill-rule:evenodd;stroke:#81c919;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     d="M 580.80661,-253.55578 C 579.58821,-257.50487 571.62971,-260.10458 571.62971,-260.10458 571.62971,-260.10458 578.89661,-260.04584 582.92421,-258.5816 588.63301,-256.5062 576.14741,-272.44066 576.14741,-272.44066 576.14741,-272.44066 586.75131,-267.01177 591.67771,-260.71378 596.60391,-254.41578 593.23061,-275.02973 593.23061,-275.02973 593.23061,-275.02973 600.69178,-262.06387 600.71331,-259.34308 604.76268,-262.74787 619.20841,-262.23675 619.20841,-262.23675 619.20841,-262.23675 602.75058,-256.12645 607.12468,-254.63256 612.92715,-253.13868 616.80821,-246.39782 616.80821,-246.39782 616.80821,-246.39782 603.17424,-251.71037 601.62061,-249.8167 601.31699,-247.47661 603.53711,-238.02145 603.53711,-238.02145 L 594.78361,-250.20524 C 591.43515,-252.09331 590.84588,-251.65951 588.40122,-251.20832 581.91235,-249.18671 576.71231,-241.2197 576.71231,-241.2197 576.71231,-241.2197 574.11871,-246.10385 580.80661,-253.55578 Z"
+     id="path4330"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccsczccccccccccc"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/grass.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
 </svg>
