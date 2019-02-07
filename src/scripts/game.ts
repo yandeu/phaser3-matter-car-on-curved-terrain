@@ -10,6 +10,8 @@ import 'pathseg'
 
 import MainScene from './scenes/mainScene'
 import PreloadScene from './scenes/preloadScene'
+import GuiScene from './scenes/guiScene'
+import BackgroundScene from './scenes/backgroundScene'
 
 const ratio = Math.max(window.innerWidth / window.innerHeight, window.innerHeight / window.innerWidth)
 const DEFAULT_HEIGHT = 720
@@ -20,12 +22,11 @@ const config: GameConfig = {
   parent: 'phaser-game',
   scale: {
     mode: Phaser.Scale.FIT,
-    // @ts-ignore
-    autoCenter: Phaser.DOM.CENTER_BOTH,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
     height: DEFAULT_HEIGHT
   },
-  scene: [PreloadScene, MainScene],
+  scene: [PreloadScene, BackgroundScene, MainScene, GuiScene],
   physics: {
     default: 'matter',
     matter: {

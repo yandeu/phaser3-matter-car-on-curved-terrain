@@ -24,7 +24,12 @@ export default class Restart {
     }
     scene.time.addEvent({
       delay: 250,
-      callback: () => scene.scene.restart()
+      callback: () => {
+        const mainScene = scene.scene.get('MainScene')
+        mainScene.scene.restart()
+        const GuiScene = scene.scene.get('GuiScene')
+        GuiScene.scene.restart()
+      }
     })
   }
 }
