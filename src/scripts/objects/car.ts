@@ -1,6 +1,10 @@
 import Restart from './restart'
 
 export default class Car {
+  readonly MAX_VELOCITY = 11
+  readonly ACCELERATION = 0.22
+  readonly ACCELERATION_BACKWARDS = this.ACCELERATION - 0.06
+
   bodies: any[] = []
   gas = {
     right: false,
@@ -28,6 +32,9 @@ export default class Car {
       wheelBOffset = width * 0.5 - wheelBase,
       wheelYOffset = wheelOffset.y
 
+    const density = 0.1
+    const friction = 0.9
+
     let group = scene.matter.world.nextGroup(true)
 
     let body = scene.matter.add.image(x, y, 'car')
@@ -45,7 +52,7 @@ export default class Car {
         chamfer: {
           radius: height * 0.5
         },
-        density: 0.05
+        density
       }
     )
 
@@ -60,8 +67,8 @@ export default class Car {
         collisionFilter: {
           group: group
         },
-        friction: 0.8,
-        density: 0.05
+        friction,
+        density
       }
     )
 
@@ -76,8 +83,8 @@ export default class Car {
         collisionFilter: {
           group: group
         },
-        friction: 0.8,
-        density: 0.05
+        friction,
+        density
       }
     )
 
@@ -93,8 +100,6 @@ export default class Car {
   }
 
   update() {
-    const VELOCITY = 14 / 2
-
     // @ts-ignore
     const Matter = Phaser.Physics.Matter.Matter
     const carBody = this.bodies[0]
@@ -102,17 +107,30 @@ export default class Car {
     // restart the game if the car falls
     if (carBody.position.y > 3000) Restart.restart(this._scene)
 
-    if (this.wheelsDown.rear) {
-      let tan = Math.tan(carBody.angle)
-      //let deg = Phaser.Math.RadToDeg(carBody.angle)
+    const setBodyVelocity = (velocity: number, direction: 'forward' | 'backwards') => {
+      const v = adjustMaxVelocity(velocity)
+      const tan = Math.tan(carBody.angle)
+      const x = v * (2 - Math.abs(tan))
+      const y = v * tan
+      const vv = direction === 'forward' ? { x: x, y: y } : { x: -x, y: -y }
+      Matter.Body.setVelocity(carBody, vv)
+    }
 
-      let x = VELOCITY * (2 - Math.abs(tan))
-      let y = VELOCITY * tan
+    const getCurrentVelocity = () => {
+      return (Math.abs(carBody.velocity.x) + Math.abs(carBody.velocity.y)) / 2
+    }
 
+    const adjustMaxVelocity = (velocity: number) => {
+      return velocity > this.MAX_VELOCITY ? this.MAX_VELOCITY : velocity
+    }
+
+    if (this.wheelsDown.rear || this.wheelsDown.front) {
       if (this.gas.right) {
-        Matter.Body.setVelocity(carBody, { x: x, y: y })
+        let newVelocity = carBody.velocity.x <= 0 ? 1 : getCurrentVelocity() + this.ACCELERATION
+        setBodyVelocity(newVelocity, 'forward')
       } else if (this.gas.left) {
-        Matter.Body.setVelocity(carBody, { x: -x * 0.7, y: -y * 0.7 })
+        let newVelocity = carBody.velocity.x >= 0 ? 1 : getCurrentVelocity() + this.ACCELERATION_BACKWARDS
+        setBodyVelocity(newVelocity, 'backwards')
       }
     }
   }

@@ -41,6 +41,9 @@ export default class MainScene extends Phaser.Scene {
         if (labels.includes('wheelRear')) {
           this.car.wheelsDown.rear = true
         }
+        if (labels.includes('wheelFront')) {
+          this.car.wheelsDown.front = true
+        }
       })
     })
 
