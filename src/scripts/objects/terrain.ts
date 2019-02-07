@@ -77,7 +77,8 @@ export default class Terrain {
       vertexSets,
       {
         label: 'terrain',
-        isStatic: true
+        isStatic: true,
+        friction: 0.7
       },
       true,
       //@ts-ignore

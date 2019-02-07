@@ -12,7 +12,8 @@ export default class Bridge {
           collisionFilter: { group: group },
           label: 'bridgePlank',
           chamfer: 5,
-          density: 0.505,
+          density: 0.5,
+          friction: 0.5,
           frictionAir: 0.05
         }
       )
