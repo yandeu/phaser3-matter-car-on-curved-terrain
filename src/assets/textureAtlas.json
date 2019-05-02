@@ -1,0 +1,188 @@
+{
+	"textures": [
+		{
+			"image": "textureAtlas.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1092,
+				"h": 493
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "sky",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 576,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 576,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 576,
+						"h": 360
+					}
+				},
+				{
+					"filename": "wholes-small",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 288
+					},
+					"frame": {
+						"x": 579,
+						"y": 1,
+						"w": 512,
+						"h": 288
+					}
+				},
+				{
+					"filename": "gas",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 201
+					},
+					"frame": {
+						"x": 579,
+						"y": 291,
+						"w": 171,
+						"h": 201
+					}
+				},
+				{
+					"filename": "car-body",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 278,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 278,
+						"h": 100
+					},
+					"frame": {
+						"x": 1,
+						"y": 363,
+						"w": 278,
+						"h": 100
+					}
+				},
+				{
+					"filename": "tile",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 20
+					},
+					"frame": {
+						"x": 1,
+						"y": 465,
+						"w": 60,
+						"h": 20
+					}
+				},
+				{
+					"filename": "car-wheel",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 100
+					},
+					"frame": {
+						"x": 281,
+						"y": 363,
+						"w": 100,
+						"h": 100
+					}
+				},
+				{
+					"filename": "restart-btn",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 189,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 61
+					},
+					"frame": {
+						"x": 383,
+						"y": 363,
+						"w": 189,
+						"h": 61
+					}
+				},
+				{
+					"filename": "grass",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 38
+					},
+					"frame": {
+						"x": 383,
+						"y": 426,
+						"w": 49,
+						"h": 38
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:13c8cca7e588a9016c12c8563c96801d:3bdd4c42a9e0f7ee3ad0d0f913ab8714:2b5604bc88faefd55ddac16e9bce1532$"
+	}
+}

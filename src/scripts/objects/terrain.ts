@@ -39,6 +39,9 @@ export default class Terrain {
     let WIDTH = points.x.high - points.x.low
     let HEIGHT = points.y.high - points.y.low
 
+    //vertexSets[0].unshift({ x: vertexSets[0][0].x, y: vertexSets[0][0].y + 500 })
+    //vertexSets[0].push({ x: vertexSets[0][vertexSets.length - 1].x, y: vertexSets[0][vertexSets.length - 1].y + 500 })
+
     // create the terrain
     let terrain = scene.add.graphics({ x: x, y: y })
     terrain.fillStyle(0x685339)
@@ -52,8 +55,9 @@ export default class Terrain {
     const mask = terrain.createGeometryMask()
 
     // create the wholes in the terrain
-    let wholes = scene.add.tileSprite(x, y, WIDTH, HEIGHT, 'wholes')
+    let wholes = scene.add.tileSprite(x, y, WIDTH, HEIGHT, 'atlas', 'wholes-small')
     wholes.setOrigin(0)
+    wholes.setScale(2, 2)
     wholes.setMask(mask)
 
     // create the grass layer
@@ -92,4 +96,5 @@ export default class Terrain {
     let centerOfMass = Matter.Vector.sub(terrainBody.bounds.min, terrainBody.position)
     Matter.Body.setPosition(terrainBody, { x: Math.abs(centerOfMass.x) + x, y: Math.abs(centerOfMass.y) + y })
   }
+  update() {}
 }

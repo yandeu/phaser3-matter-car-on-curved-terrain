@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="terrain.svg"
@@ -26,9 +27,9 @@
      showgrid="false"
      inkscape:current-layer="svg2"
      inkscape:document-units="px"
-     inkscape:cy="-3821.9131"
-     inkscape:cx="7160.8416"
-     inkscape:zoom="0.0875"
+     inkscape:cy="-1123.5638"
+     inkscape:cx="9197.5488"
+     inkscape:zoom="0.175"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -42,7 +43,31 @@
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-global="false" />
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4197">
+      <stop
+         style="stop-color:#91eef5;stop-opacity:1"
+         offset="0"
+         id="stop4199" />
+      <stop
+         style="stop-color:#43c1d8;stop-opacity:1"
+         offset="1"
+         id="stop4201" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4197"
+       id="radialGradient4203"
+       cx="-58.422489"
+       cy="-1919.5504"
+       fx="-58.422489"
+       fy="-1919.5504"
+       r="320"
+       gradientTransform="matrix(0.88898161,-0.75756802,0.8769674,1.0290929,1826.2335,360.11094)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -61,11 +86,11 @@
      id="layer1"
      transform="translate(0,-332.36216)" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.80137658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M -10.897628,399.93176 C -10.897628,399.93176 288.60672,618.50006 508.36612,640.74266 749.66242,665.16516 960.21539,497.39726 1204.7144,507.67696 1389.1043,515.42946 1527.0719,666.08666 1697.4136,650.82346 1995.3401,624.12826 2203.0018,278.20826 2500.9048,251.25206 2757.1536,283.57346 3160.8719,433.07886 3614.1631,512.50706 3701.568,527.82266 3802.4814,469.17086 3891.4898,482.07566 3920.0416,486.21526 3976.7979,567.15876 4005.1617,571.34966 4541.0055,650.52346 5038.2438,671.82536 5305.707,674.53556 5591.1758,673.51816 5860.3257,403.90846 6235.521,388.42876 6461.4248,379.10846 6577.2065,733.44486 6801.0752,683.08636 7362.552,556.78396 7556.2782,653.52216 7779.8151,642.88966 7895.3772,637.39296 8337.1538,200.0133 8593.7804,200.2414 8859.1093,200.4773 8967.7842,-19.579351 9137.4147,0.78640883 9394.5767,31.661165 9686.3335,223.62336 9903.7143,161.75654 10339.873,37.625175 10339.676,533.48076 10347.275,532.76956 10362.825,531.31426 10361.694,1521.236 10360.76,1628.3545 10360.551,1652.3241 4.6852435,1672.7116 4.6852435,1672.7116"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00671625px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -10.837105,399.91531 C -10.837105,399.91531 360.95089,618.41855 633.74796,640.65452 933.27973,665.06975 1194.6484,497.3518 1498.1559,507.62844 1727.0472,515.37863 1898.3125,665.99098 2109.7652,650.73232 2479.5945,624.04507 2737.3742,278.22805 3107.1744,251.27988 3425.2674,283.59165 3926.4207,433.05255 4489.1112,512.4571 4597.6107,527.76814 4722.879,469.1338 4833.3691,482.03476 4868.8117,486.17313 4939.2658,567.09253 4974.475,571.28218 5639.6416,650.43241 6256.8855,671.72797 6588.8994,674.43736 6943.2645,673.42027 7277.3722,403.89083 7743.1187,388.41574 8023.5431,379.09821 8167.268,733.32913 8445.1661,682.98562 9142.1521,556.72082 9382.633,653.43022 9660.1193,642.80088 9803.5716,637.30582 10351.968,200.05637 10670.53,200.2844 10999.895,200.52023 11134.798,-19.470908 11345.368,0.88878878 11664.594,31.754353 12026.765,223.6594 12296.609,161.811 12838.032,37.716588 12837.788,533.42456 12847.221,532.71357"
      id="path4140"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="caaacssscssssssssc" />
+     sodipodi:nodetypes="caaacssscssssssc" />
   <path
      style="opacity:1;fill:#cccccc;fill-opacity:0.81308414;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
      d="M 64.303133,-374.84559 173.3996,-374.84559 C 190.18834,-374.84559 205.75684,-361.20379 203.70418,-344.54099 L 186.53159,-205.13999 C 184.47892,-188.47719 173.01575,-174.83539 156.22701,-174.83539 L 81.475723,-174.83539 C 64.686993,-174.83539 53.223813,-188.47719 51.171153,-205.13999 L 33.998557,-344.54099 C 31.945895,-361.20379 47.514403,-374.84559 64.303133,-374.84559 Z"
@@ -76,11 +101,11 @@
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
-     sodipodi:nodetypes="csaacssscssssssssc"
+     sodipodi:nodetypes="cssscssscssssssc"
      inkscape:connector-curvature="0"
      id="path3335"
-     d="M 10316.178,3179.9869 C 10316.178,3179.9869 10215.724,3000.459 9998.9436,2907.6403 9781.7034,2814.6245 9421.8726,2751.9814 9128.8491,2770.534 8958.1667,2781.3406 8806.4916,2928.9437 8636.1499,2913.6805 8338.2234,2886.9853 8130.5617,2541.0653 7832.6587,2514.1091 7576.4099,2546.4305 7172.6916,2695.9359 6719.4004,2775.3642 6631.9955,2790.6797 6531.0821,2732.0279 6442.0737,2744.9328 6413.5219,2749.0723 6208.1942,2870.0159 6179.8304,2874.2068 5643.9866,2953.3806 5301.034,2808.9681 5027.8565,2937.3926 4690.9591,3056.3752 4473.2378,2666.7655 4098.0425,2651.2858 3872.1387,2641.9655 3756.357,2996.3019 3532.4883,2945.9434 2971.0115,2819.641 2777.2853,2916.3792 2553.7484,2905.7467 2438.1863,2900.25 2047.8383,2588.5847 1791.2117,2588.8128 1525.8828,2589.0487 1365.7793,2243.2777 1196.1488,2263.6435 938.9868,2294.5183 647.23,2486.4805 429.8492,2424.6136 -6.3098824,2300.4823 -6.1128824,2796.3378 -13.711882,2795.6266 -29.261882,2794.1713 -28.130882,3772.6645 -27.196882,3879.7831 -26.987882,3903.7527 10328.879,3924.1402 10328.879,3924.1402"
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.80137658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     d="M 11617.063,3528.4898 C 11621.249,3524.7808 11611.68,3447.0568 11669.83,3358.5231 11865.52,3060.5827 11575.859,3311.6521 11343.718,3201.6923 11139.351,3104.8886 10961.733,3006.1663 10729.49,2913.6747 10396.606,2781.1024 10101.548,2541.1218 9731.5518,2514.1701 9413.2902,2546.4861 8911.8712,2695.9665 8348.8826,2775.3815 8240.3255,2790.6945 8114.9908,2732.0525 8004.4422,2744.9552 7968.9808,2749.094 7713.9634,2870.0174 7678.7355,2874.2076 7013.2163,2953.3682 6587.2685,2808.9798 6247.9814,2937.3829 5829.5541,3056.3456 5559.1438,2666.801 5093.1504,2651.3239 4812.5774,2642.0051 4668.7763,2996.2823 4390.7309,2945.9322 3693.3755,2819.6509 3452.7672,2916.373 3175.1339,2905.7423 3031.6055,2900.2465 2546.7924,2588.6333 2228.0616,2588.8613 1898.5226,2589.0972 1699.6737,2243.384 1488.9922,2263.7464 1169.5965,2294.616 807.23392,2486.5461 537.2465,2424.6896 -4.4640133,2300.579 -4.2193389,2796.3516 -13.657313,2795.6406"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00737906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <rect
      style="opacity:1;fill:#cccccc;fill-opacity:0.81308414;stroke:#666666;stroke-width:0.76492667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
      id="rect3338"
@@ -108,11 +133,11 @@
        y="-245.70583"
        style="-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">RESTART</tspan></text>
   <rect
-     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+     style="opacity:1;fill:#685339;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
      id="rect3347"
      width="1280"
      height="720"
-     x="-34.28582"
+     x="-107.0168"
      y="-1445.7142"
      ry="0"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
@@ -120,7 +145,7 @@
      inkscape:export-ydpi="90" />
   <g
      id="g4161"
-     transform="translate(278.58371,-1265.8054)"
+     transform="translate(205.85273,-1265.8054)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -137,7 +162,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.84285714,0,0,0.84285714,457.83881,-1316.924)"
+     transform="matrix(0.84285714,0,0,0.84285714,385.10783,-1316.924)"
      id="g4165"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -156,7 +181,7 @@
   </g>
   <g
      id="g4171"
-     transform="translate(351.44091,-1731.5197)"
+     transform="translate(278.70993,-1731.5197)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -173,7 +198,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(860.01231,-1758.6625)"
+     transform="translate(787.28133,-1758.6625)"
      id="g4177"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -192,7 +217,7 @@
   </g>
   <g
      id="g4183"
-     transform="translate(742.86941,-1437.2339)"
+     transform="translate(670.13843,-1437.2339)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -209,7 +234,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(1145.7266,-1314.3768)"
+     transform="translate(1072.9956,-1314.3768)"
      id="g4189"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -228,7 +253,7 @@
   </g>
   <g
      id="g4195"
-     transform="translate(1178.5837,-1531.5197)"
+     transform="translate(1105.8527,-1531.5197)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -246,7 +271,7 @@
   </g>
   <g
      id="g4201"
-     transform="matrix(0.84285714,0,0,0.84285714,324.98171,-1438.3525)"
+     transform="matrix(0.84285714,0,0,0.84285714,252.25073,-1438.3525)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -263,7 +288,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.84285714,0,0,0.84285714,556.41021,-1561.2097)"
+     transform="matrix(0.84285714,0,0,0.84285714,483.67923,-1561.2097)"
      id="g4207"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -282,7 +307,7 @@
   </g>
   <g
      id="g4213"
-     transform="matrix(0.84285714,0,0,0.84285714,900.69591,-1511.2097)"
+     transform="matrix(0.84285714,0,0,0.84285714,827.96493,-1511.2097)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -299,7 +324,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.84285714,0,0,0.84285714,1224.9817,-1725.4954)"
+     transform="matrix(0.84285714,0,0,0.84285714,1152.2507,-1725.4954)"
      id="g4219"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -318,7 +343,7 @@
   </g>
   <g
      id="g4225"
-     transform="matrix(0.70000078,0,0,0.70000078,866.51251,-1163.5257)"
+     transform="matrix(0.70000078,0,0,0.70000078,793.78153,-1163.5257)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -335,7 +360,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.70000078,0,0,0.70000078,1283.6554,-1132.0971)"
+     transform="matrix(0.70000078,0,0,0.70000078,1210.9244,-1132.0971)"
      id="g4231"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -354,7 +379,7 @@
   </g>
   <g
      id="g4237"
-     transform="matrix(0.70000078,0,0,0.70000078,1080.7982,-1556.3828)"
+     transform="matrix(0.70000078,0,0,0.70000078,1008.0672,-1556.3828)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -371,7 +396,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.70000078,0,0,0.70000078,1270.7982,-1512.0971)"
+     transform="matrix(0.70000078,0,0,0.70000078,1198.0672,-1512.0971)"
      id="g4243"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -390,7 +415,7 @@
   </g>
   <g
      id="g4249"
-     transform="matrix(0.70000078,0,0,0.70000078,492.22681,-1649.24)"
+     transform="matrix(0.70000078,0,0,0.70000078,419.49583,-1649.24)"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90">
@@ -407,7 +432,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.70000078,0,0,0.70000078,546.51251,-1173.5257)"
+     transform="matrix(0.70000078,0,0,0.70000078,473.78153,-1173.5257)"
      id="g4255"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -425,7 +450,7 @@
        id="path4259" />
   </g>
   <g
-     transform="matrix(0.70000078,0,0,0.70000078,182.22681,-1472.0971)"
+     transform="matrix(0.70000078,0,0,0.70000078,109.49583,-1472.0971)"
      id="g4261"
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/wholes.png"
      inkscape:export-xdpi="90"
@@ -451,4 +476,14 @@
      inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/grass.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
+  <rect
+     style="opacity:1;fill:url(#radialGradient4203);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.5;stroke-opacity:1"
+     id="rect4195"
+     width="640"
+     height="360"
+     x="-76.771614"
+     y="-1922.9448"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:export-filename="/home/yannick/Desktop/phaser3-matter-car-on-curved-terrain/src/assets/img/background.png" />
 </svg>

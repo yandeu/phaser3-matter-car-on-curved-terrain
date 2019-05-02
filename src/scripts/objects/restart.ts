@@ -8,7 +8,7 @@ export default class Restart {
   addRestartButton() {
     // add the restart button
     this._scene.add
-      .image(this._scene.cameras.main.width / 2, 15, 'restart')
+      .image(this._scene.cameras.main.width / 2, 15, 'atlas', 'restart-btn')
       .setOrigin(0.5, 0)
       .setScrollFactor(0)
       .setInteractive()

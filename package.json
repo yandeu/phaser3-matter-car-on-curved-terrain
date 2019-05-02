@@ -30,18 +30,18 @@
     "clean-webpack-plugin": "^1.0.1",
     "copy-webpack-plugin": "^4.6.0",
     "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.3.1",
-    "webpack": "^4.29.2",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1",
     "webpack-merge": "^4.2.1",
     "webpack-obfuscator": "^0.18.0",
     "workbox-webpack-plugin": "^3.6.3"
   },
   "dependencies": {
     "pathseg": "^1.2.0",
-    "phaser": "^3.16.1",
+    "phaser": "~3.16.1",
     "poly-decomp": "^0.3.0"
   }
 }

@@ -6,15 +6,15 @@ export default class Bridge {
 
     // creates a new wood plank
     const newWoodPlank = (x: number, y: number) => {
-      return scene.matter.add.image(x, y, 'tile').setBody(
+      return scene.matter.add.image(x, y, 'atlas', 'tile').setBody(
         { type: 'rectangle' },
         {
           collisionFilter: { group: group },
           label: 'bridgePlank',
           chamfer: 5,
-          density: 0.5,
-          friction: 0.5,
-          frictionAir: 0.05
+          density: 0.005,
+          friction: 0.6
+          //frictionAir: 0.05
         }
       )
     }
@@ -27,7 +27,7 @@ export default class Bridge {
 
     // attaching each plank to the next one
     for (let i = 0; i < woodPlanks.length - 1; i++) {
-      scene.matter.add.constraint(woodPlanks[i], woodPlanks[i + 1], 20, 0, {
+      scene.matter.add.constraint(woodPlanks[i], woodPlanks[i + 1], 10, 0.75, {
         pointA: { x: 20, y: 0 },
         pointB: { x: -20, y: 0 }
       })

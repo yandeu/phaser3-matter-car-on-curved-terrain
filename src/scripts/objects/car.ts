@@ -3,7 +3,7 @@ import Restart from './restart'
 export default class Car {
   readonly MAX_SPEED = 0.75
   readonly MAX_SPEED_BACKWARDS = this.MAX_SPEED * 0.75
-  readonly ACCELERATION = this.MAX_SPEED / 50
+  readonly ACCELERATION = this.MAX_SPEED / 130
   readonly ACCELERATION_BACKWARDS = this.ACCELERATION * 0.75
 
   bodies: any[] = []
@@ -21,10 +21,10 @@ export default class Car {
     scene: Phaser.Scene,
     x: number,
     y: number,
-    width: number = 252,
-    height: number = 90,
-    wheelSize: number = 25,
-    wheelOffset: { x: number; y: number } = { x: 38, y: 40 }
+    width: number = 278,
+    height: number = 100,
+    wheelSize: number = 50,
+    wheelOffset: { x: number; y: number } = { x: 62, y: 62 }
   ) {
     this._scene = scene
 
@@ -33,12 +33,14 @@ export default class Car {
       wheelBOffset = width * 0.5 - wheelBase,
       wheelYOffset = wheelOffset.y
 
-    const density = 0.2
+    const density = 0.001
     const friction = 0.9
+    // @ts-ignore
+    const Matter = Phaser.Physics.Matter.Matter
 
     let group = scene.matter.world.nextGroup(true)
 
-    let body = scene.matter.add.image(x, y, 'car')
+    let body = scene.matter.add.image(x, y, 'atlas', 'car-body')
     body.setBody(
       {
         type: 'rectangle',
@@ -53,11 +55,11 @@ export default class Car {
         chamfer: {
           radius: height * 0.5
         },
-        density
+        density: 0.002
       }
     )
 
-    let wheelA = scene.matter.add.image(x + wheelAOffset, y + wheelYOffset, 'wheel')
+    let wheelA = scene.matter.add.image(x + wheelAOffset, y + wheelYOffset, 'atlas', 'car-wheel')
     wheelA.setBody(
       {
         type: 'circle',
@@ -73,7 +75,7 @@ export default class Car {
       }
     )
 
-    let wheelB = scene.matter.add.image(x + wheelBOffset, y + wheelYOffset, 'wheel')
+    let wheelB = scene.matter.add.image(x + wheelBOffset, y + wheelYOffset, 'atlas', 'car-wheel')
     wheelB.setBody(
       {
         type: 'circle',
@@ -89,11 +91,11 @@ export default class Car {
       }
     )
 
-    let axelA = scene.matter.add.constraint(body.body, wheelA.body, 2, 1, {
+    let axelA = scene.matter.add.constraint(body.body, wheelA.body, 0, 0.2, {
       pointA: { x: wheelAOffset, y: wheelYOffset }
     })
 
-    let axelB = scene.matter.add.constraint(body.body, wheelB.body, 2, 1, {
+    let axelB = scene.matter.add.constraint(body.body, wheelB.body, 0, 0.2, {
       pointA: { x: wheelBOffset, y: wheelYOffset }
     })
 
@@ -110,18 +112,23 @@ export default class Car {
     // restart the game if the car falls
     if (carBody.position.y > 3000) Restart.restart(this._scene)
 
+    let angularVelocity = 0.005
+
     if (this.gas.right) {
       let newSpeed = wheelRear.angularSpeed <= 0 ? this.MAX_SPEED / 10 : wheelRear.angularSpeed + this.ACCELERATION
       if (newSpeed > this.MAX_SPEED) newSpeed = this.MAX_SPEED
       Matter.Body.setAngularVelocity(wheelRear, newSpeed)
       Matter.Body.setAngularVelocity(wheelFront, newSpeed)
+      // if (!this.wheelsDown.rear && !this.wheelsDown.front) Matter.Body.setAngularVelocity(carBody, -angularVelocity)
     } else if (this.gas.left) {
       let newSpeed =
         wheelRear.angularSpeed <= 0
           ? this.MAX_SPEED_BACKWARDS / 10
           : wheelRear.angularSpeed + this.ACCELERATION_BACKWARDS
       if (newSpeed > this.MAX_SPEED_BACKWARDS) newSpeed = this.MAX_SPEED_BACKWARDS
+
       Matter.Body.setAngularVelocity(wheelRear, -newSpeed)
+      // if (!this.wheelsDown.rear && !this.wheelsDown.front) Matter.Body.setAngularVelocity(carBody, angularVelocity)
     }
   }
 }
