@@ -10,7 +10,7 @@ Build with Phaser 3 using the [typescript phaser-project-template](https://githu
 
 ## Play
 
-[Play the game](https://s3.eu-central-1.amazonaws.com/phaser3-typescript/car-on-curved-tarrain/index.html)
+[Play the game](https://yandeu.github.io/phaser3-matter-car-on-curved-terrain/)
 
 ![screenshot gif](readme/myimage.gif)
 
